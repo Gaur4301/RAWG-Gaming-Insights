@@ -91,7 +91,7 @@ while (url3 ) :
     else :
         print(f"Error : {res.status_code}-{res.text}")
         break
-
+api_key=""
 url4=f'https://api.rawg.io/api/platforms?key={api_key}&page=1'
 cnt=0
 while (url4 ) :
